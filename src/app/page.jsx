@@ -5,6 +5,7 @@ import TopOffer from "../components/user/TopOffer";
 import Items from "../components/user/Items";
 import Moto from "../components/user/Moto";
 import NewsLetter from "../components/user/NewsLetter";
+import Footer from "../components/others/Footer";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
 <Category/>
 <Items/>
 <NewsLetter/>
+<Footer/>
 
 
   </div>

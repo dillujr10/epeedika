@@ -1,6 +1,13 @@
-import React from 'react'
+"use client"
+import React, { useEffect, useState } from 'react'
+import useFetch from '../../hooks/UseFetch'
+import base_url from '../../hooks/baseUrl'
+import axios from 'axios'
+
 
 function TopDeals() {
+ 
+
   return (
     <>
       <h1 className='text-3xl font-bold text-center mt-8'>Top Deals</h1>
@@ -8,7 +15,7 @@ function TopDeals() {
       {[1, 2, 3, 4].map((index) => (
         <div
           key={index}
-          className="relative m-10 w-full max-w-xs overflow-hidden rounded-lg bg-white shadow-md hover:transform hover:scale-105 transition-transform duration-300 ease-in-out"
+          className="relative m-2 w-full max-w-[18rem] overflow-hidden rounded-lg bg-white shadow-md hover:transform hover:scale-105 transition-transform duration-300 ease-in-out"
         >
           <a href="#">
             <div className="flex flex-wrap justify-center">

@@ -5,11 +5,12 @@ import ProductCards from '../../../components/user/ProductCards'
 import TopDeals from '../../../components/user/TopDeals'
 
 const page = () => {
+  
   return (
     <>
     <Navbar/>
-    <TopDeals/>
     <ProductCards/>
+    <TopDeals/>
     <Footer/>
     
     </>

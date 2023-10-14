@@ -15,7 +15,8 @@ module.exports = {
       },
       fontFamily: {
         'logo': ['BreeSerif', 'serif'],
-        'Onest':['Onest','serif']
+        'Onest':['Onest','serif'],
+        'futura':['Hind','sans-serif'],
       },
       colors: {
 
